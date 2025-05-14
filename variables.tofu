@@ -3,22 +3,22 @@ variable "PROJECT_NAME" {
   description = "Name to use for the project"
 }
 
-# variable "BW_MASTER_PASSWORD" {
-#   type        = string
-#   description = "Bitwarden Master Password"
-#   sensitive   = true
-# }
+variable "BW_MASTER_PASSWORD" {
+  type        = string
+  description = "Bitwarden Master Password"
+  sensitive   = true
+}
 
 variable "BW_EMAIL" {
   type        = string
   description = "Bitwarden User Email"
 }
 
-variable "BW_SESSION" {
-  type        = string
-  description = "Bitwarden Master Password"
-  sensitive   = true
-}
+# variable "BW_SESSION" {
+#   type        = string
+#   description = "Bitwarden Master Password"
+#   sensitive   = true
+# }
 
 variable "BW_ORG_ID" {
   type = string
