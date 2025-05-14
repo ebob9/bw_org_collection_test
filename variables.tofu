@@ -30,3 +30,8 @@ variable "BW_USER_ID" {
   description = "Bitwarden User UUID"
 }
 
+variable "BW_GROUP_ID" {
+  type = string
+  description = "Bitwarden Group UUID"
+}
+
